@@ -1,0 +1,182 @@
+"What You Need to Know to be a Front-End Developer" video
+    https://www.youtube.com/watch?v=Xd7huBu39qk&t=92s
+
+A Back-End Developer often uses:
+    Java,
+    Python,
+    Ruby,
+    PHP
+
+A Front-End Developer often uses:
+    HTML
+        Helps to define mark-up.
+            <a> - hyperlinks
+            <li> - lists
+            <button> - button
+            <p> - paragraphs
+            <input type=""> - input (of all types)
+    Javascript
+        Javascript interacts with DOM codes (like HTML)
+    CSS (Cascading Style Sheets)
+        Describes the presentation of webpages
+        Nuiances high, options many ~ looks simple, but can quickly become complex/difficult.
+        Practice, practice, practice.
+
+Front End Tools to master:
+    Text Editor
+        Where you write the code and spend the most time.
+    Browser Development Tools
+        Look at website structure and debug 
+    Version Control
+        GIT is popular to control which version is being used
+        Github = specific service to publish code
+
+Other Important Technologies:
+    Sass / CSS Prepocessors
+    Javascript Libraries
+        jQuery = older
+    JS Frameworks
+        React, Angular, ViewJS = newer, Bootstrap
+    Command Line / CLI
+        Terminal knowledge = important
+    Module Loading / Bundling Tools
+        browserify/Gulp
+    WordPress
+        Free, open-source plug-ins
+    Image Editors
+        Photoshop, Sketch, 
+    Wireframe Tools (design from self or others)
+        balsamic, Figma
+
+Learn & Practice as much as you can!
+Immersion in the language is vital; start with the basics, then work up!
+
+===========================================================================
+===========================================================================
+
+"Web Designer" by TACP Staff on 19 July 2021
+    https://theartcareerproject.com/careers/web-design/
+
+Do you search with Google or Bing? Chances are that you bookmarked the search engine you prefer as well as the sites you visit frequently for a good reason – they’re both visually appealing and easy to use. Web designers help create that perfect combination of form and function to earn their living. Designers use typography, imagery, and other visual devices, to create a digital universe where you can find the information you need and enjoy searching for it. It’s the perfect job for someone who is, as Big Future says, “part artist and part computer geek.”
+
+Many careers in art exist – art director, illustrator, portrait artist, graphic designer, and others – and working as a web designer is one way to use your artistic abilities in a rapidly growing field. Combining what you love with meeting a client need means earning a reliable salary.
+Featured Online Web Design Programs Now Enrolling Students
+Southern New Hampshire University
+
+    Online BA in Graphic Design - Web Design
+    Online MS in Information Technology - Web Design
+
+    These Programs Accept Idaho Residents
+
+What Does a Web Designer Do?
+
+Designers and developers help clients create their virtual presence. A web designer transforms a brand into an online experience. In his designs, the web designer thinks not only about the overall design of the website, but also about its function. A website must contain all the information the company wants to communicate to its visitors, and visitors must enjoy using the site to find the information.
+
+Web designers work with the client to understand what they want their website to do. Sometimes, designers may simply revise an old website to improve the design and/or the function of certain features. For other clients, the designer may have to start the design process from scratch. While some companies need a complete website, other clients may want a basic landing page that they can grow into additional pages as their client base grows. Web designers must remain flexible and consider the client’s desires – and budget – most of all.
+
+Online presences continually change, so maintaining a good relationship with the client is imperative. Clients may simply need a microsite that links to their primary site to feature a specific product, or they may want ongoing digital packages that the designer can update as needed. Some designers are very hands-on, implementing each change themselves for the client. Other web designers utilize a platform that enables clients to make their own edits, or they partner with other digital firms for certain aspects of the design. Many firms or design professionals are contracted for web support and upkeep according to a designated time frame.
+
+A web designer often works with a team of other professionals, including information architects, UX (user experience) experts, marketing team members, sales staff, and more. Designing with all these moving parts in mind can make the designer’s job more challenging. A web developer is another part of the team, and he or she is the professional who pulls together all the perspectives and talents of the various team members to create the finished working product.
+Differences Between Web Designers and Web Developers
+
+Because the names are so similar, you may wonder: “What’s the difference between web designers and developers?” While the web designer’s role is design, the web developer’s job is more technical. These jobs require two different skill sets and types of experience and education. Some employers may use the terms interchangeably, but designers and developers are actually two different positions, each focusing on different parts of a website’s back end development.
+
+While a web designer focuses on the aesthetics – the layout, webpages, color, fonts, buttons – of a website, the web developer, or programmer, works to make the site function correctly. Developers are experts in languages such as Ruby, Java, Python, PHP, and Rails, to name a few, while designers use Photoshop, JavaScript, HTML, and CSS (cascading style sheets). Prachi Londhe of Red Balloon Advertisers says that designers use the “creative part of the brain… the right brain, while development takes the logical and reasoning side of the brain [the left brain].” Designers work with the visual design and the user interface, and developers find the logical solutions to make the site work.
+
+Web development requires additional qualifications and a more in-depth understanding of computer science than is expected in a web designer. These design and development professionals work hand-in-hand to transform the initial visual design into a working product.
+
+A web designer approaches a project creatively, designing the site to reflect the brand and attract and keep key visitors. Front-end developers make sure all the elements of the design transition, fit, and link as they should. A back-end developer is even more obscure in the process. She ensures the hidden parts work correctly (servers run; pages load, not only correctly but quickly, etc.). Website developers who manage both front-end development and back-end development are called full-stack developers.
+What Are the Job Responsibilities of a Web Designer?
+
+Successful web designers are experts in blending creative form and technical function. They develop user interface designs that not only attract but retain visitors to the site. By staying up to date on both the trends and technological advances in visual design, they design the site to make its visitors have an experience they can navigate easily and engage with readily. Design Hill advises designers to spend “an hour each day or a day or two in a week dedicated to learning new things in your field.” Web design means lifelong learning to stay abreast with rapidly changing technology in computer science.
+
+The best web designers are experts in human psychology. They know how to design with the customer in mind to create websites, microsites, online advertising, social media initiatives, and mobile apps that are both compelling and intuitive. They know how to discuss complex technical matters with clients and brand managers so they can easily understand them. They communicate well, both orally and in writing, to discuss their concepts and articulate their design approaches. Web designers know how to tailor the design and structure of a company’s website to increase conversions and generate more sales of the company’s product.
+
+A team environment – developers, brand management, media buyers, art directors, copywriters, audio experts, photographers, engineers, illustrators, marketers, IT professionals, and others – is characteristic of website creation, so designers should work well with other diverse personalities. The best designers are highly organized, self-motivated, and skilled at prioritizing work to meet deliverable deadlines.
+
+Web designers must not only plan the visual design, but also install and configure the software that runs it, author and format the programming languages, ensure compatibility with various platforms, establish the links, and register the website with a popular search engine such as Google. The job isn’t over after the initial design: A web designer also usually maintains the site, completes ongoing design needs, such as promotions and ad banners, seasonal updates, and more. User testing is an ongoing process to update the site as required.
+
+A project manager or brand manager may work as a liaison to meld the client’s needs, vision, and budget with the professional web designer’s ideas. The client’s sales and legal teams may contribute insight and feedback for the direction of the website design.
+Value-Added Services a Web Designer Might Offer
+
+A web designer may offer additional value-added services by learning how to do the jobs closely related to web design, such as email marketing campaign management, cascading style sheet (CSS) creation, or writing product descriptions. A skilled professional who is capable of filling more than one role is more valuable to the firm. Additionally, it enhances the designer’s job prospects when he’s ready to make a change.
+
+For some companies, a web designer may assume the same skill set and assignments as a web developer. By doing so, he becomes more of a “one-stop-shop” professional. Working in both positions may necessitate having a broader understanding of search engine optimization (SEO), keywords, writing, design, coding various programming languages, and the other technical aspects of both back- and front-end development.
+
+A graphic design position is closely related to web design, so a website designer may offer this service as well. A graphic designer determines the look of the brand for both print and digital purposes, but his primary focus is on one- or two-dimensional layout and design and less about UX (user experience) or UI (user interface) design and web function.
+Who Hires Website Designers?
+
+In today’s digital world, consumers shop online in increasing numbers. Statista reports that in 2019, retail shopping added up to $365.2 billion worth of sales, and by 2024, experts project online sales to equal almost $600 billion. By 2024, online clothing and accessories’ sales will amount to $194.4 billion. This increase in online traffic means businesses can’t afford to keep their storefront off the internet. Without a well-designed, mobile-friendly website, most businesses can’t exist. This increase in online traffic has increased the job outlook for web designers.
+Additional Stats for Web Design Professionals
+
+The United States Bureau of Labor Statistics (BLS) groups web designers into the same category as jobs in graphic design and web development. Graphic designers earn an average salary of $50K each year, while web developers make an average of $69K. For web developers, job growth is projected to skyrocket at 13 percent, while graphic design jobs are expected to increase at a much slower rate, only 3 percent. The rapid growth in the digital and virtual aspects of design can be attributed to the rise of mobile devices and Wi-Fi. Lifewire reports that the average salary of a web designer is around $70K, with a low-end salary of $40K. According to PayScale, web designers typically earn between $35K and $74K, depending on their location. Urban areas, such as New York and Los Angeles, have a higher cost of living, so salaries are proportionately higher. You can save money by working in a smaller city, but the trade-off is that the employee pool may be smaller.
+
+    Working for a Design Firm
+    In a larger firm, web design professionals usually work with many clients, although some may work with a team of in-house professionals with one client or a small group of clients. At a smaller firm, depending on its size, the web designer may have one job or many different (but related) tasks. Designers at a small firm may be required to work on print campaigns as well as with digital, manage certain aspects of back-end development, and even write the copy for the website.
+
+    Working as a Freelance Web Designer
+    Self-employed (or freelance) individuals must wear many hats (designing, developing, writing, billing, etc.). They work as independent contractors. A freelancer can select clients and turn away those who aren’t a good fit, but finding clients can prove challenging. A good freelancer usually has steady clients, but typically, they face a lot of financial uncertainty. A freelancer usually sets his own rates, which depend on what clients are willing to pay.
+
+    Working as an In-House Web Designer
+    A large company may hire a professional to become familiar with their brand. This means this person becomes an expert in the client’s brand direction, legal and design mandatories, and design preferences. They often serve as mentors to other in-house professionals and make design decisions based on their knowledge of the client’s brand.
+
+Important Qualities for Web Designers
+
+Web designers must be able to solve problems that are unique to the client’s business, industry, and target audience. While remaining within the parameters of web design and development, they meet deadlines, adhere to strict budgets, and create a final product that aligns the desires of the client with the demands of their online visitors.
+Key Skills and Competencies
+
+Web designers must be proficient in multiple software programs, web applications, and computer languages, including:
+
+    The most recent version of the Adobe Creative Suite, including InDesign, Photoshop, Illustrator, and Dreamweaver
+    Wireframing tools
+    Knowledge of SEO and keyword strategies
+    Balsamiq
+    JQuery
+    Javascript
+    Enterprise Content Management Systems
+    Visual Studio
+    HTMLS and CSS3
+    WordPress, Squarespace, Wix, and Weebly
+    PHP, MySql and jQuery
+
+Essential Traits of a Web Designer
+
+To be a good web designer, your abilities should go beyond skills and industry knowledge. Certain qualities and personality traits are helpful to a web designer. Although you can practice and improve upon many of these characteristics, a number of traits are necessary to complete the job effectively:
+
+    Team Player
+    The web designer typically works as one cog in a much larger machine, and he has the ability to brainstorm, create concepts, and adjust expectations in ways that benefit the entire team.
+
+    Organized
+    Completing deliverables on a timely basis and launching a web design according to a specific time frame require a high degree of organization and self-direction.
+
+    Consistent
+
+    Design elements must appear cohesive across an entire website, as well as on every platform and browser on which the site will appear. Design also must align with all the client’s mandatories, including their logo and legal requirements, fonts, and colors. The design must be consistent with all printed materials, microsites, ad banners, social content, and other digital content.
+
+    Ability to Take Direction
+
+    A successful designer works with clients, teammates, outside developers, freelance talent, and many others. She must be able to receive input from every source without involving her ego and remain flexible.
+
+    Takes Rejection Well
+
+    Usually, the design process includes multiple ideas, rough concepts, and many shifts in direction. The web designer must be able to participate in the idea phase without becoming overly attached to initial ideas and have the ability to respond well to feedback that’s not always positive.
+
+    Mathematics Skills
+
+    Web design involves designing for many different dimensions and sizes, all of which involve mathematical expertise.
+
+    Continual Learner
+
+    Web design trends and the technology involved in creating digital design change rapidly. Effective web designers stay abreast of industry changes and advances in technology to offer designs that reflect current trends and take advantage of the capabilities of the programs they use most often.
+
+    Creative
+
+    A designer must be able to create innovative concepts that are striking and unique.
+
+    Empathy
+
+    You must be able to experience your web design as if you were a visitor to the site and know how to best meet the visitor’s needs when navigating the site.
+
+    Detail-Oriented
+
+    Your design must function correctly, which requires the completion of many small, but important, tasks to ensure a seamless design.

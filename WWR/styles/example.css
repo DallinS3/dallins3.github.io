@@ -1,0 +1,47 @@
+body {
+    background-color: purple;
+}
+h1 {
+    background-color: chartreuse;
+    color:darkblue;
+    padding: 8px;
+    text-align: center;
+}
+p {
+    color:whitesmoke
+}
+.fancy {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    /*
+        font-size: 1.5em;
+    */
+    color: yellow;
+    /*  Boxes can have width, height, padding, border, and margins  */
+    border: 1.5px solid whitesmoke;
+    /* 
+    {    border-radius: 2px  } 
+        OR
+    {   border-radius: 50% (changes pictures & text boxes)  }
+    
+    { border-size: border-box (matches textbox with picture boxes)  }
+    */
+    padding: 10px;
+    /*
+        Padding applies to top, right, bottom, left (in order)
+        padding: 50px 10px -- top & bottom=50, r&l=10
+        padding: 50px 10px 100px -- top=50, r&l=10, bottom=100
+        padding: 50px 10px 100px 200px - top=50, r=10, bottom=100, l=200
+    */
+    margin: 40px;
+    margin-left: 120px;
+    background-color: darkred;
+}
+#david{
+    width:175px;
+}
+.superfancy{
+    font-family: 'Great Vibes', cursive;
+    color:whitesmoke;
+}

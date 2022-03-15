@@ -1,0 +1,33 @@
+body, h1, h2, h3, h4, h5, h6, ul, li, p{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #ced7ec;
+}
+
+h2{
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+/*  L O V E -  H A T E  */
+a:link, a:visited, a:hover, a:active{
+    color:#458dcb;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 255px 460px;
+    gap:68px;
+    font-size: 18px;
+    font-family: 'Bienetresocial-Bold/Bienetresocial.ttf', serif;
+    margin: 10px auto;
+    width: 808px;
+    color: #32405A
+}
+
+main ul{
+    list-style: none;
+}

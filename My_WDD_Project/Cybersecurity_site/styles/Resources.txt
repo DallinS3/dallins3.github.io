@@ -1,0 +1,33 @@
+COLORS
+
+https://coolors.co/03045e-0077b6-00b4d8-90e0ef-caf0f8
+    #03045E
+    #0077B6
+    #00B4D8
+    #90E0EF
+    #CAF0F8
+OR https://coolors.co/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8
+ALSO Check out: https://color.adobe.com/create/color-wheel 
+    #9900CF
+    #3F00AB
+    #0000BF
+    #0B54D6
+    #00B7FF
+
+FONTS
+
+    Grov
+        https://www.fontsquirrel.com/fonts/Grov-AB?  filter%5Bclassifications%5D%5B0%5D=display&filter%5Bclassifications%5D%5B1%5D=programming&filter%5Btags%5D%5B0%5D=high-tech&sort=hot
+    Bender
+        https://www.fontsquirrel.com/fonts/Bender?filter%5Bclassifications%5D%5B0%5D=display&filter%5Bclassifications%5D%5B1%5D=programming&filter%5Btags%5D%5B0%5D=high-tech&sort=hot
+            Carbon Thin W00 Regular
+                https://www.whatfontis.com/FF_CarbonThin-W00-Regular.font
+            Anonymous Pro Regular
+                https://www.whatfontis.com/FF_Anonymous-Pro-Regular.font
+            Gideon Roman
+                https://fonts.google.com/specimen/Gideon+Roman
+    Laconic
+        https://www.fontsquirrel.com/fonts/laconic?filter%5Bclassifications%5D%5B0%5D=display&filter%5Bclassifications%5D%5B1%5D=programming&filter%5Btags%5D%5B0%5D=high-tech&sort=hot
+    Rex
+        https://www.fontsquirrel.com/fonts/rex?filter%5Bclassifications%5D%5B0%5D=display&filter%5Btags%5D%5B0%5D=octagon&sort=hot
+    

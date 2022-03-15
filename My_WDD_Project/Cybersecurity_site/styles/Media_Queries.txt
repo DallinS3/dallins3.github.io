@@ -1,0 +1,32 @@
+Media Queries
+    Use desktop (build that way)
+    Try incorporating onto phone (limited use)
+
+    NOW:
+    Build for phone
+    Adjust for desktop
+
+/* SCALE SCREEN SIZE TO DETERMINE SUCCESS OF BROWSER & MEDIUM COMPATIBILITY */
+
+@media screen and max-width: 900px{
+    main{
+        /* ONLY CHANGES THIS ONE ITEM IN AN ELEMENT */
+        grid-template-columns: 1fr
+    }
+}
+
+@media screen and min-width: 900px{
+    main{
+        grid-template-columns: 1fr 1fr 1fr
+    }
+}
+
+@media screen and min-width: 1240px{
+    main{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
+    }
+}
+
+/* Design drives breakpoints */
+
+float & clear;

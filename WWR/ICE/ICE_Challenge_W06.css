@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+h1{
+    
+    color: rgb(92, 92, 92);
+}
+h3{
+    color:rgb(92, 92, 92) ;
+    font-family: 'Pavanam', sans-serif;
+}
+#text{
+    max-width: 0/3;
+}
+.title{
+    margin: 10%;
+    padding: 1px 75px;
+    text-align: center;
+}
+.invite{
+    margin:10%;
+    padding: 1px 50px;
+    text-align: center;
+}
+.subscribe{
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+border: darkorange;
+}

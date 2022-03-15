@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='styles/style.css'>
+    <title>Contact Us</title>
+</head>
+<body>
+    <div id='content'>
+        <!--    the  target="_blank" attribute can be used to navigate to the specified link using a new tab or new window    -->
+        <header>
+            <!--
+                 Over the next weeks, you will be expected to design 1 more page for the rafting site. Use the following options for ideas for an additional page:
+                    Rivers
+                    FAQ
+                    Blog
+                    Rates/Dates
+                You are not limited to these ideas.
+                (https://byui-wdd.github.io/wdd130/resources/w08-subpage-content.html) 
+            -->
+            <a href = 'index.html' id = 'logo_link'>
+                <img class = 'logo' src = 'images/logo.png' alt = 'My Logo'>
+            </a>
+            <div>
+                <nav class = 'navigate'>
+                    <a href = "index.html" class = 'home'> Home </a>
+                    <a href = "./page_two.html" class = 'page2'> Page 2 </a>
+                    <a href = "Reserve+Pay.html" class = 'reserve'> Secure your Reservation </a>
+                    <a href = "site-plan-rafting.html" class = 'plan'> Site Plan </a>
+                    <a href = "contact_us.html" class = 'contact'> Contact Us </a>
+                </nav>
+
+                <!--
+                    Second Page FAQs Link: https://wireframe.cc/EHD86N
+                -->
+                <!--
+                <img src = "https://placeimg.com/640/480/nature" alt = 'Nature Shots'  width = '1325' height = '600'>
+                -->
+                <nav class = 'a'>
+                <!--
+                    NOT INCLUDED FOR MY WEBSITE. JUST AN EXAMPLE.
+                -->
+                <!--
+                    <ul>
+                        <li>
+                            <a href='www.churchofjesuschrist.org'>Church's Website</a>
+                        </li>
+                        <li>
+                            <a href='www.churchofjesuschrist.org'>Church's Website Appendage</a>
+                        </li>
+                        <li>
+                            <a href='www.churchofjesuschrist.org'>The Church of Jesus Christ of Latter-day Saints</a>
+                        </li>
+                        <li>
+                            <a href='www.churchofjesuschrist.org'>Website</a>
+                        </li>
+                    </ul>
+                -->
+                </nav>
+            </div>
+        </header>
+        
+            
+        <main>
+        <div id="feedback"></div>
+        <div>
+            <!--    THIS IS WHERE I WILL BE PRACTICING USING THE <form> ELEMENT     -->
+                <!--    <<action>> (defines the location (URL) where the form's collected data should be sent when it is submitted.) AND <<method>> (defines which HTTP method to send the data with (usually get or post).) attributes are optional in the <form> element, but standard practice    -->
+            <form action="/my_handling_form_page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="user_password">
+                    </li>
+                    <li>
+                        <label for="email">E-mail Address:</label>
+                        <input type="email" id="email" name="user_email">
+                    </li>
+                    <li>
+                        <label for="address">Mailing / Shipping & Billing Address:</label>
+                        <input type="text" id="mail" name="user_mailing">
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send</button>
+                        <button type="reset">Cancel</button>
+                    </li>
+                </ul>
+            </form>
+            <script>
+                const feedbackElement = document.getElementById('feedback');
+                const formElement = document.forms[0];
+                formElement.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!'
+                    feedbackElement.style.display = 'block';
+                    // document.body.classList.toggle('moveDown');
+                });
+            //  IN ORDER FROM FIRST STEP TO LAST (as written above):
+            // get the feedback div element so we can do something with it.
+            // get the form so we can read what was entered in it.
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            // stop the form from doing the default action.
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            // make the feedback element visible.
+            // add a class to move everything down so our message doesn't cover it.
+            </script>
+        </div>
+        </main>
+
+        <footer>
+            <h3>Xtreme WWR &copy; 2022 - Dallin Scott</h3>
+            <h3><a href = 'site-planing-rafting.html'>Site Plan</a></h3>
+            <h3><a href = 'contactus.html'>Contact Us</a></h3>
+            <div class = 'social'>
+                <a href = 'https://facebook.com' target="_blank">
+                    <img src = 'images/facebook.png' alt = 'FB icon'>
+                </a>
+                <!--
+                <br>
+                -->
+                <a href = 'https://twitter.com' target="_blank">
+                    <img src = 'images/twitter.png' alt = 'Twitter icon'>
+                </a>
+                <!--
+                <br>
+                -->
+                <a href = 'https://instagram.com' target="_blank">
+                    <img src = 'images/insta.png' alt = 'Insta icon' width = '65' height = '65'>
+                </a>
+            </div>
+        </footer>
+        </div>
+</body>
+</html>

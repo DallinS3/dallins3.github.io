@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='styles/style.css'>
+    <title>FAQs</title>
+</head>
+
+<body>
+    <div id='content'>
+    <!--    the  target="_blank" attribute can be used to navigate to the specified link using a new tab or new window    -->
+    <header>
+        <!--
+             Over the next weeks, you will be expected to design 1 more page for the rafting site. Use the following options for ideas for an additional page:
+                Rivers
+                FAQ
+                Blog
+                Rates/Dates
+            You are not limited to these ideas.
+            (https://byui-wdd.github.io/wdd130/resources/w08-subpage-content.html) 
+        -->
+        <a href = 'index.html' id = 'logo_link'>
+            <img class = 'logo' src = 'images/logo.png' alt = 'My Logo'>
+        </a>
+        <div>
+            <nav class = 'navigate'>
+                <a href = "index.html" class = 'home'> Home </a>
+                <a href = "#" class = 'page2'> Page 2 </a>
+                <a href = "Reserve+Pay.html" class = 'reserve'> Secure your Reservation </a>
+                <a href = "site-plan-rafting.html" class = 'plan'> Site Plan </a>
+                <a href = "contact_us.html" class = 'contact'> Contact Us </a>
+            </nav>
+
+            <!--
+                Second Page FAQs Link: https://wireframe.cc/EHD86N
+            -->
+
+            <!--
+            <img src = "https://placeimg.com/640/480/nature" alt = 'Nature Shots'  width = '1325' height = '600'>
+            -->
+
+            <!--
+            <nav class = 'a'>
+            ---
+                NOT INCLUDED FOR MY WEBSITE. JUST AN EXAMPLE.
+            -->
+            <!--
+                <ul>
+                    <li>
+                        <a href='www.churchofjesuschrist.org'>Church's Website</a>
+                    </li>
+                    <li>
+                        <a href='www.churchofjesuschrist.org'>Church's Website Appendage</a>
+                    </li>
+                    <li>
+                        <a href='www.churchofjesuschrist.org'>The Church of Jesus Christ of Latter-day Saints</a>
+                    </li>
+                    <li>
+                        <a href='www.churchofjesuschrist.org'>Website</a>
+                    </li>
+                </ul>
+            ---
+            </nav>
+            -->
+        </div>
+    </header>
+
+    <section class = 'top_image'>
+        <img class = 'banner' src="./images/kayak-banner1.png" alt="Kayaking Banner">
+    </section>
+    
+    <main class = 'content_grid'>
+        <section class = 'faqs_card'>
+            <h2>What accommadations are available for those with disabilities?</h2>
+            <button onclick="FAQs_Function_1()">More info</button>
+            <p id="disabilities">
+                We will provide all necessary camping equipment. This includes a sleeping bag, foam pad, waterproof duffle bag, small waterproof day bag, tent and a cot, eating utensils and camping chair.<br>
+                We provided water and lemonade during the day. Coffee, tea and hot chocolate are provided during the morning and evening hours. You may bring beer, liquor and soft drinks (in reasonable amounts, 2 cans per day). You may purchase these items either the night before the trip, or on your way to the put-in. 3 meals per day, plus snacks.<br>
+                For those who require special accommadations, we have a team that will provide all the necessary equipment and supplies needed for everyone to have an exciting and fun time!
+            </p>
+            <br>
+            <script>
+                function FAQs_Function_1() {
+                    var x = document.getElementById("disabilities")
+                    if (x.style.display === "none") {
+                        x.style.display = 'block';
+                    } else {
+                        x.style.display = 'none';
+                    }
+                }
+            </script>
+            <br><br>
+        <!--
+        </section>
+        <section class = 'safety_card'>
+        -->
+            <h2>What can you tell me about the safety protocols for the grounds?</h2>
+            <button onclick="FAQs_Function_2()">More info</button>
+            <p id = 'safety'>
+                As with all adventure sports, there is an inherent and assumed element of risk. To help ensure your safety, our guides are all certified in Wilderness First aid and all start with at least 3 years of rafting experience. The most common injuries are sunburns and injuries that occur on land.<br>
+                Everyone on commercial rafting trips wears coast guard approved life vest or personal flotation device (PFD). Many non swimmers go on rafting trips and have a great time. Your guide will give you an in depth and engaging safety talk before your trip begins explaining what you should prepare for and do in the event that you fall out of the raft.
+            </p>
+            <br>
+            <script>
+                function FAQs_Function_2() {
+                    var x = document.getElementById("safety")
+                    if (x.style.display === "none") {
+                        x.style.display = 'block';
+                    } else {
+                        x.style.display = 'none';
+                    }
+                }
+            </script>
+            <br><br>
+        <!--
+        </section>
+        <section class = 'camper_card'>
+        -->
+            <h2>Can I park my camper or trailer(s) on-site?</h2>
+            <button onclick="FAQs_Function_3()">More info</button>
+            <p id = 'parking'>
+                Yes, campers and trailers are welcome to park in designated areas. However, only smaller vehicles are permitted on camp ground areas.
+            </p>
+            <script>
+                function FAQs_Function_3() {
+                    var x = document.getElementById("parking")
+                    if (x.style.display === "none") {
+                        x.style.display = 'block';
+                    } else {
+                        x.style.display = 'none';
+                    }
+                }
+            </script>
+            <br><br>
+        <!--
+        </section>
+        <section class = 'others_card'>
+        -->
+            <h2>Other Questions</h2>
+            <button onclick="FAQs_Function_4()">More info</button>
+            <section id = 'other_q'>
+                <h4>
+                Is this a good trip for kids? What are the age ranges you allow?
+                </h4>
+                <p>
+                Absolutely this is a good trip for children of all ages. We have found however that children over the age of 8 seem to enjoy it more overall (And parents especially enjoy it more if their children are all over 8). A common concern we get from parents is that their children will be bored stuck on a boat for hours at a time. Surprisingly we deal with very few bored children of any age. The areas we are rafting through are some of the most beautiful in the world, and you never know what you might see around any corner. Not to mention the rapids which keep things very interesting. Each boat also comes equipped with a guide. It has been proven that river guides are unable to go for very long at all without telling stories...some of which are even true!
+                </p>
+                <h4>What do I need to bring?</h4>
+                <p>
+                The most effective way to plan for temperature and weather changes in the Canyon is to be prepared for both hot & dry and cold & wet Rain jacket and rain pants- do not bring ponchos Quick dry shirts and shorts long sleeve cotton shirt and pants- helps keep you cooler on hot days. Button down shirts provide more sun protection on the neck Light Weight Cotton Pant, Nylon Pant or Sarong the best thing for men to wear are swim trunks as shorts if you are cold natured, bring polypropylene long underwear top and bottom Women wear swim suits or quick dry underwear and sport bras as a base layer during the day. Over the base layer, wear a pair of quick dry shorts and the shirt of your choice (polypropylene if you are cold, cotton if you are hot). Two piece swim suits are convenient when changing or going to the bathroom. hat- large brim hat offers protection from the sun with a good quality strap. Sunglasses with strap socks- used for hiking and to protect your feet from the sun. sandals or water shoes- if not used to hiking in these, bring a pair of shoes you have hiked in before camper wear: Bring something comfortable to wear around camp. Cotton dresses, skirts and sarongs are all popular options. Sleep wear: You might choose to sleep in your camp wear. Otherwise, you might like to bring something comfortable to sleep in. water bottle small day pack for hikes moisturizing lotion headlamp or flashlight moleskin waterproof sunscreen and lip balm optional items: gloves fleece jacket towel bandana small pillow hygiene products: toothpaste, toothbrush, tissue, nail clippers, feminine hygiene products, extra eyeglasses or contacts, biodegradable soap and shampoo camera equipment book, watercolors, journal and pen.
+                </p>
+                <h4>What is so great about whitewater rafting anyway?</h4>
+                <p>
+                    What's not great about whitewater rafting?!...Let's describe a common day on the river.<br>                Arise in the soft light of the early morning after a night spent sleeping under a beautiful starry sky. Have a hearty warm breakfast of fresh blueberry pancakes or omelets to order, then pack your things and prepare for the day. The day is filled with some combination of swift water, rapids, calms, hikes, history, geology, stories, and more good food. We try to hit camp around 4 or 5, after setting up your cot you can relax with a good book or good company by the river, or explore around camp while your guides prepare your dinner...something perhaps like steak and potatoes, or grilled salmon...and dutch oven brownies...you won't forget the dutch oven brownies. After dinner it's more relaxing, and you might even be able to talk your guide into another story or two to send you off to bed under more stars than you thought were possible.
+                </p>
+                <h4>How far in advance should I book my trip?</h4>
+                <p>
+                If you have specific dates you need, we recommend booking a year in advance. If you can be more flexible 6 months in advance is usually sufficient.
+                </p>
+            </section>
+            <script>
+                function FAQs_Function_4() {
+                    var x = document.getElementById("other_q")
+                    if (x.style.display === "none") {
+                        x.style.display = 'block';
+                    } else {
+                        x.style.display = 'none';
+                    }
+                }
+            </script>
+            <br><br>
+        </section>
+        <!--
+        <div id = '#'>
+            <img src = 'images/fall_rapids.jpg' alt = 'Fall Rapids'>
+        </div>
+        -->
+        
+        <!--
+        THIS CODE SHOULD PROBABLY BE USED HERE!!!
+        <div id="feedback"></div>
+        <div>
+            --    THIS IS WHERE I WILL BE PRACTICING USING THE <form> ELEMENT     --
+                --    <<action>> (defines the location (URL) where the form's collected data should be sent when it is submitted.) AND <<method>> (defines which HTTP method to send the data with (usually get or post).) attributes are optional in the <form> element, but standard practice    --
+                    <form action="/my_handling_form_page" method="post">
+                        <ul>
+                            <li>
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="user_name">
+                            </li>
+                            <li>
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" name="user_password">
+                            </li>
+                            <li>
+                                <label for="email">E-mail Address:</label>
+                                <input type="email" id="email" name="user_email">
+                            </li>
+                            <li>
+                                <label for="address">Mailing / Shipping & Billing Address:</label>
+                                <input type="text" id="mail" name="user_mailing">
+                            </li>
+                            <li>
+                                <label for="msg">Message:</label>
+                                <textarea id="msg" name="user_message"></textarea>
+                            </li>
+                        </ul>
+            -->
+
+        <section class = 'ask_us'>
+            <h2>Ask us a Question!</h2>
+            <p class = 'name'>
+                Name:
+                <input type="text">
+            </p>
+            <br>
+            <p class = 'phone'>
+                Phone Number:
+                <input type="tel">
+            </p>
+            <br>
+            <p class = 'email'>
+                Email Address:
+                <input type="email">
+            </p>
+            <br>
+            <p class = 'questions'>
+                Questions/Comments:
+                <input type="text">
+            </p>
+            <br>
+            <a class = '#' href = '#'>Submit</a>
+                <!--    "Thank you. Your text entry and accompanying information has been submitted!"   -->
+            <button type="button">Cancel</button>
+        </section>
+    </main>
+
+    
+    <div id = 'initial'>
+        <div class = 'payment_box'>
+            <img class = 'picture' src = './images/river_panorama.png' alt = 'River Panorama'>
+        </div>
+        <section id = 'payment_msg'>
+            <h1 class = 'reserve_title'>
+                Secure Your Reservation
+            </h1>
+            <h4>
+                Payment Information
+            </h4>
+            <div class = '#'>
+                <a class = '#' href = '#'>[NEW CONTENT HERE]</a>
+            </div>
+        </section>
+    </div>
+    <br>
+
+    <!--
+        Finding your own Images
+            If you opt to look for your own images here are a couple of things to keep in mind:
+                Make sure the image is not restricted for use. These would include images from other whitewater rafting company sites and photographer's sites.
+                You can have Google help you try to avoid those and find images that are free to use by searching something like rafting in Google...then select the Images tab. At the top of the screen you will see a Tools button that will show a sub-menu. Select Usage Rights from that menu. Click the Creative Commons licenses option to show images that are available to use. A few, however, may still have copyrights, so be careful.
+                Many of the images you will find will be very large! Don't worry, you can optimize them. See the videos below for information about images and optimizing images.
+    -->
+
+    <footer>
+        <h3>Xtreme WWR &copy; 2022 - Dallin Scott</h3>
+        <h3><a href = 'site-planing-rafting.html'>Site Plan</a></h3>
+        <h3><a href = 'contactus.html'>Contact Us</a></h3>
+        <div class = 'social'>
+            <a href = 'https://facebook.com' target="_blank">
+                <img src = 'images/facebook.png' alt = 'FB icon'>
+            </a>
+
+            <a href = 'https://twitter.com' target="_blank">
+                <img src = 'images/twitter.png' alt = 'Twitter icon'>
+            </a>
+
+            <a href = 'https://instagram.com' target="_blank">
+                <img src = 'images/insta.png' alt = 'Insta icon' width = '65' height = '65'>
+            </a>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>

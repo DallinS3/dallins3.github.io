@@ -1,0 +1,100 @@
+NOTES
+
+Classes and Ids
+
+To target an element in CSS as a selector we have been referring to them by their element name. But there are two attributes for elements that identify them with a different name. Because we might have a whole lot of <p> tags on our page but maybe I only want to apply CSS to one or some of them. That’s when they come in handy. These naming attributes are the class and id attribute. Every HTML element can use these attributes and classes and ids can be used as a selector in CSS.
+
+    <p class="anyname">
+        This is my wonderfull paragraph.
+    </p>
+    .anyname {
+        background-color: #ccc
+    }
+
+The developer can choose the name or values of ids and classes but they should not start with numbers. These id and class attributes are placed inside the beginning tag of the element. Then later when CSS is used, the id and class values can be used to target just that element. Ids and classes don’t affect the presentation of an element, unless there is a CSS rule selecting that class or id that indicates it should be displayed differently.
+
+For example, if I had 4 paragraphs and I only wanted every other paragraph to have a light gray background. How do I target just some of the paragraphs in CSS and not others. I could give the paragraphs I want shaded a class name of ‘shaded’. Then in CSS I target not the <p> tag but the class name of ‘shaded’. To show that it is a class we put a dot or period in front of it. This tells CSS to look for a class name. Now I can put a background color and it will apply to all paragraphs with that class name.
+
+Ids work similarly but an id attribute is used to uniquely identify that element from others on the page. This means I can’t apply one id name to multiple elements like I did the class ‘shaded’. If I give my <h1> an id of ‘myheader’, I can’t use the id of ‘myheader’ anywhere else in this
+HTML document. If I do, my code will not validate. To apply CSS to that Id I would use the Id name with a hashtag in front of it. This tells CSS that you are looking for an Id called ‘myheader’.
+
+    <h1 id="main-topic">
+        My Title Here
+    </h1>
+    <!--id "main-topic" cannot be anywhere else whereas class attributes can be-->
+
+    # myheader {
+        font-family:
+        font-size:
+        color:
+    }
+
+You could also use a class name that is used only once on the page as well, and CSS can be applied to only that one class with the same results. So there is always some confusion as to why we need Ids. If you go on to learn JavaScript later, id attributes can be used to allow the
+script to work with that particular element and no other.
+
+***
+Elements can also have more than one class. For example if I wanted to emphasize this text to be more bold and dark red I can apply a class of emphasize to it. So if I wanted another paragraph also emphasized I could give it two class names. So now it has the ‘shaded’ class name and the ‘emphasize’ class name. In CSS I have different rules for each of those class names.
+***
+
+You could even have an id and a class in one attribute. I can add the ‘emphasize’ class to my <h1> element that already has an id.
+
+As your website grows larger with more and more html pages, it’s nice to have just one CSS file so you don’t have to reuse the same CSS for parts of the page that remain the same, but simple element name selectors can affect multiple pages in unexpected ways sometimes. So, using meaningful classes and ID can be help organizing your CSS for multiple pages as well.
+
+==========================================================================
+
+
+Let’s look at some basics you should follow when creating an html page from beginning to finish. When you begin an html file you should always follow a few simple naming rules. It is strongly suggested that you save your file names in all lower case. This will cut down on mistakes that might be made later. The first character of the file name should be a letter, don’t start the file name with a number. And there shouldn’t be spaces in the file name. If you want to separate words you can use a dash or an underscore but no other special characters. These rules apply to any folders, image file or other resource file names you create within your website as well.
+
+Remember the file with the name index.html will always be recognized as the home page of your website. So, when the user types in the domain name of your website like amazon.com the index.html page will always come up first as the home page. Other sub-pages or child pages on your website don’t have to have a special name, you can name them whatever you want but
+try and remember to keep it short and simple and follow the naming conventions.
+
+I’m going to use VSCode shortcut here and type an exclamation mark and tab or enter. This brings in the beginning of our html page. Notice the meta tags that come in. Let’s talk about those. HTML lets you add additional information about your document using meta tags. The meta element can include name/value pairs describing properties of your HTML document. These tags are not visible on your web page but belong in the head section of your HTML. This is where we have information about our page, not the content that shows up on our page.
+
+I could add my own stating who the author of the document is. It is not required, and it does not affect the look of the document in any way but is just additional information about our page if we want to include it.
+
+The next meta tag tells us what character set we are using in our document. UTF-8 refers to the Unicode character sets. Unicode can handle any international language characters so it’s a good one to use on your web page.
+
+The next meta tag tells MS to use the latest rendering engine (Edge). This is only needed in a few instances. It’s also not always needed.
+
+This last meta tag is important, and I would always include it on your html documents. It allows the developer to take control over the viewport (or visible area of a web page) no matter what device is being used. Whether the user is seeing your webpage on a phone, tablet, laptop, or
+desktop. The ‘width=device-width’ sets the width of the page to follow the screen-width of the device and the initial-scale=1.0 sets the initial zoom level when the page is first loaded in the browser. So, this initial zoom is at 1.0 or 100%. When used in conjunction with media queries which we will touch on later, it can help make pages be responsive or in other words, look good on any device.
+
+As you are creating your file, make sure you are using semantic elements for your content. Most tags describe what is inside them and are semantic for example the nav tag has a navigation contained between its opening and closing tag. But some elements are not semantic like div or span tags. These tags tell nothing about their content. They simply create a wrapping element around their content usually for CSS presentation purposes, not because it gives their elements meaning.
+
+So, for example I might not have a good tag that has a semantic fit with the banner information, but I know that I will be doing CSS on all that content together later so I place a div with the class of banner-msg around it.
+
+Also, the span element is an example of a non-semantic tag. I might want the color of just the text ‘have an outdoor heat source’ to be a different color with CSS but it doesn’t really have a semantic meaning to that content.
+
+So why use a nav tag when a div tag would work and your page’s navigation or menu would look just the same on your page? The reason it’s important is because screen readers and search engines use this extra information and it’s important to give our pages as much meaningful information about our content as we can. This makes it accessible to those navigating our page without sight and also for search engines like Google to make more sense out of our page and rank it appropriately. It’s also just good practice to do it.
+
+Once we are done with our file, we should validate the code. Validating our HTML and CSS is important. Validating is just like it sounds—making sure our code is valid or coded properly. W3C is the World Wide Web Consortium or international community that maintains and develops web standards. They have a validator that you should use to validate your HTML. It is at validator.w3.org.
+
+Here you can check your web page html code by either placing the web address of your page, uploading your html file, or by pasting your html code in directly. Then when you check it, it will then let you know if you have any errors. Then you should correct any errors so your page will
+validate with no errors.
+
+Here’s what it would look like once it validates. Why is this important? First it can help you debug your code. If your page is not rendering like you expected it to, validating can show you where your errors are. Also, it helps you learn good practices, have clean code, and help with site performance. It is a sign of professionalism and those hiring you later might look at your portfolio or web pages and validate them to see if you have good code. Also search engines like Google will rank your website much better if your code validates. So, get into a good habit of always validating your HTML code. You can also validate CSS at jigsaw.w3.org/css-validator
+
+==========================================================================
+
+
+Wireframe Video Transcript:
+
+It’s important to plan out your web site and each web page before you start coding in HTML or CSS. We started this planning last week with the site plan. Part of the site plan was the wireframe of the homepage.
+
+Wireframing plays an important role in your design process. Wireframes depict what the webpage will look like or the interface of our page.
+
+They can be hand written or created using different tools. Notice they don’t really include the actual colors, or images of the page. It’s just a visual representation of the interface of the page. Too many images or colors might distract from focusing on the layout. At this point we are just interested in the basic structure of the page and which elements will be using to create the page.
+
+We will be creating a wireframe later in the course. This week we are looking at completed wireframes. If I were building a website for a client I wouldn’t want to spent many hours coding out my HTML and CSS to show the client for the first time. I would create a wireframe to present to them to get feedback. At this point if they want changes that would be simpler to change than if I had coded it all. So not only is wireframing a good design practice, it saves a lot of time in the long run with your
+development process.
+
+With a wireframe showing the design of our page we are ready to start converting that wireframe into HTML. Let’s take a look at this wireframe and decide how our page elements might be grouped.
+
+We see that the top of the page is the logo and navigation., followed by a scrolling banner image with text over the banner images, then a product gallery with images of products and titles and descriptions... Then at the bottom a footer with contact info, copywrite info, a site map and social media icons.
+
+Which parts of this page will remain the same for every page on our website? As the users of our page go from page to page in the site the top portion of the page –- (navigation and logo) and the bottom portion --(footer) will stay the same. So these will logically go in their own groups. Everything else on the page between the navigation and footer, will most likely change from page to page. So we will group that part together--. Within that part, if we look at this wireframe we can see a few more groupings. Notice the banner scrolling area has a different purpose from the product gallery. They not only have different functions but they will also be designed or laid out differently as well. So I would group those as well. One group for the banner and one for the product gallery. There are also multiple small grouping that we might see within the banner area and the product gallery. For example each banner image will also have some text that goes with each image, for design purposes we might also group the image and text for each of the
+banner displays. Also notice that each gallery product is not only an image but it has a title and description that goes with it. This could also be a logical grouping within the product gallery. So we can see that the groupings can nest inside of each other as we study the wireframes. This will correspond to how out html might be nested inside each other as we create the html elements.
+
+Let’s look at the wireframe for the home page of the white water rafting site. Again we can see some logical groupings here. There is a header and a footer group. Then everything between the header and footer is what we will call the main section of the page the portion of the page that will change from page to page in our web site. Within that main group we have other groups: a hero or banner image area, a group with three images that have a headlines and icon with them, and a group with a background, image, title and paragraph. Within this grouping we can also see how the headline and paragraph might be grouped together as well. So you might have groups like this nested inside that group. You will see in the html structure how elements and class attributes are used to group them all properly.
+
+==========================================================================

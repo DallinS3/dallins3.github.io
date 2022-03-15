@@ -1,0 +1,87 @@
+
+CSS Units of Measurement
+
+CSS units are used to express length for widths, margins, font-sizes, etc. It is usually a number followed by a unit of measurement like px, em, or %. When coding unit measurements there is no space between the number and the unit. And you might see values of zero where a unit is omitted.
+
+Some units are absolute meaning they are always the same size regardless of the page size. px or the pixel unit of measurement is an example of an absolute measurement. Other units are relative meaning their size can change based on something else like the page or font size. em or % are relative unit measurement examples. Relative units will scale better between different devices. This means for example if we give an image a percentage value for example 100% width then it would be 100% for that part of the page on a phone, tablet, laptop, etc. The width would change depending on what device they were using to render the page. This is called
+responsiveness. Whereas if we gave that image a unit measurement of 800px it would be a fixed size on all those devices. So relative measurements scale better and are good for responsive web pages.
+
+The default browser font size is 16px but you can change that default for the entire page by setting a font size on the <body> element. And the child elements will inherit their parent body element’s font size.
+
+em is also a relative measurement. Ems allow you to change the size relative to the size of the text in the parent element. em can be used on more than just fonts though you can use it for margins, padding, line-height etc. But it’s still going to be based off the inherited font-size. If you always want to base your measurements off the root or font-size in the body regardless of the immediate parent’s font size, you can use rem or ‘root’ em instead of em. 1em would mean 100% of the default font size and 1.5 em would be one and half times bigger or 150% and 2em
+would be twice the size, and so on.
+
+There are also other types of units of measurement like 8viewport width (vw) and viewport height (vh) referring to the width and height of the user’s device. W3schools.com has a more complete list https://www.w3schools.com/cssref/css_units.asp of units of measurement.
+We will mostly be using pixels, percentages, and em for this course.
+
+Remember we talked about all elements having an invisible box around them. They are sized just big enough to hold their contents. We can adjust the size of these boxes with the width and height properties. Notice how this banner or hero image is quite large, it is actually going off the screen and we don’t even see the right part of it. We can change that width to 100% so it will now take 100% of the size of its parent container and not default to however many pixels the image was. We can also set widths on any element such as this div. Because right now it has no content it has no height. We can set a height to make it taller. We can also set a max-width or min-width. This is different from width because with pages that expand and shrink with the user’s screen such as percentages and ems there comes a time when a device might be so small that the page is not legible anymore or a screen so large that the page or element width appears much too big. Use max-width to ensure there is a set point when it shouldn’t grow anymore and min-width to set a point where it won’t appear too narrow. So, for example we can make sure that at a certain point the main section doesn’t get larger than 1500px for example. It’s always a good idea to check your site on different devices to make sure it looks
+good.
+
+===========================================================================
+
+Block and Inline elements
+
+Remember every element is inside its own invisible box. This box will either be a block or an inline element.
+
+Block-level elements by default take up 100% of the space they have, stretching from right to left as far as they can. This means that they will not allow other elements to share the line they are on. So they appear to start on a new line in the browser window. These include <div>,
+<header>, <main>, <footer>, <nav>, <p>, <ul>, <li>, <section>, <article>, <form>, and <h1> - <h6>.
+
+Inline elements by default will allow other elements to share the same line as long as there’s room, then they will only wrap to the next line once it’s full. They will only take up as much width as necessary. These include <a>, <img>, <span>, <button>,and <label>.
+
+The <h1> element and all the paragraphs here are block level elements. If I place a border around them, you can see that they take up all the space they can.
+
+However, if we placed some images side by side as long as there is room, they will share the horizontal space available.
+
+You can change the defaults of inline and block elements with the display property. If I wanted to make a block element into an inline element, I would target it in CSS and use the display: inline declaration. And if I wanted to make an inline element into a block-level element I would use the display: block declaration.
+
+There is also one more display property value, inline-block. It’s kinds of a mix between the two. It would cause a block-level element to flow like an inline element, but it will retain other features of a block-level elements like allowing you to set a width and height on the element and top and bottom margins would work more predictably. The declaration you would use is display: inline-block.
+
+Here we have 3 spans one inline, one inline-block and one block. Notice the difference between the 3. Even though the widths and heights are all set the same between the 3, the inline widths, heights and margin, padding top and bottom are not always what is expected. Inline-block is sometimes a better choice for a simple way to align a few items side-by-side. https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_span1
+
+Because of these different display values, centering elements on our page works differently with different elements. Two common ways to center elements are text-align: center and margin: 0 auto.
+
+Text-align: center will center the contents of the box. So, If I put text-align: center on the <h1> or the <p> then the content will get centered inside that invisible box or container.
+
+Margin: 0 auto will center the box itself. The first value refers to the top and bottom margin. In our case we will just leave them zero. The second value refers to the right and left it will automatically give an equal gap on each side of the box.
+
+With margin: 0 auto if the width of the element takes the whole space you won’t see the centering. There needs to be a width set so there is space on each side to automatically give it an equal measurement on each side. Or, in other words, the box needs a width otherwise it will take up the full width of the page.
+
+So if I now give the <h1> and <p> a width, the contents are still centered inside the box with the text-align: center but I can use margin:0 auto to center the box itself.
+
+If I try text-align: center with an image, which is an inline element, it doesn’t appear to center. That’s because its border is tight around the image. The content is the image and it is already centered inside its tight border. But we can change the image to display: block, give it a width, then we can center it with margin: 0 auto. Or we could place the image inside a block-level element and then use text-align: center to center the contents of that element which would include that child element.
+
+===========================================================================
+
+CSS Selectors and Specificity
+
+There are many different types of CSS selectors that allow you to target specific elements in HTML. So far, we’ve learned how to target by using elements names like <p> or <h1>.
+
+We’ve also seen how we can target class and id names as well using #content for an id or .icon for a class, then it’s more specific and instead of targeting every type of element like all <div>s or all <img>s we can be more specific in which ones to target. This is called specificity.
+
+We saw a little bit of specificity when we talked about the order of CSS and how that matters. If the same exact selector had the same rule applied the one later in the CSS file would be applied and override the earlier one.
+
+Think of specificity as a score or rank that determines which style declarations will be the one applied.
+
+For example, if I declare a font-family for the whole page each child element inherits the font throughout the page. But if later I declare my h1 to have a different font family later in the CSS file, it is more specific, and all my h1s will have a different font. The body rule applies to all the text on the page, but the h1 rule is more specific so it is the one that will be applied.
+
+Or I might have all my images set to a width of 100%, but I find that some of my images are just too big so I need to have a smaller percentage. So I might target just those images that I need smaller with their class name, for example .heat, to make just those images have a more specific rule set. Even though the width of 100% is still applied to all images, including them, the smaller width percentages wins out and will be applied because it is more specific. And here’s where it gets interesting, even if that rule came before the img rule it would still apply because a class selector ranks higher in specificity than an element name selector.
+
+Every selector will have a ranking in the specificity hierarchy. Inline styles as we saw earlier have a very high ranking. We are only going to be using an external CSS file so for us, the next more specific are id selectors like #logo-link, then classes and pseudo-classes like .card-img and .card-img:hover (which we will talk about in just a minute), then lastly the least specific are the element selectors like <p>, <h1>, <img>, etc. Keep this in mind when a rule seems to not work, you might have a more specific rule targeting that same element and over-riding your rule.
+
+You may see some elements and classes used together in CSS. For example the .heat might be placed with the img tag using both element name and class, like this img.heat. This is just saying to target all img elements that have the class name of heat. Or I might want all the all a tags
+with the class of highlight a.highlight. This would come in handy if you’ve used the class highlight with different types of elements and want to specify which elements with that class name you want to target.
+
+We can also list a number of element names, classes, ids etc and have the same declaration apply to all of them by separating them with commas. For example: h1, h4 {font-family: ...} This would mean all h1s and all h4s would have that font-family and I wouldn’t need a separate rule for each one.
+
+We can get even more specific with descendant CSS selectors. For example, maybe we just want all the paragraphs inside our article to have line-height. So, we target just paragraphs that are children (or descendants) of an article element like this. article (space) p. The descendent would be the last element. So p’s that are inside of an article element would be effected. Or maybe just the images inside our product gallery like this #prod-gallery img {...}
+
+So, we could target images like we had before with a width of 40% but without giving them all a class name and just selecting them by either all the images in the main section or all the images inside the #img_container.
+Visit w3schools at https://www.w3schools.com/cssref/css_selectors.asp for even more specific CSS selectors.
+
+Let’s also talk about pseudo-selectors and pseudo-classes.
+
+One example of a pseudo selectors is the :nth-of-type() selector. If you have a number of the same type of element, it will let you select the first, second, third, or fourth etc of those elements. For example if I have a number of list items, I could select just the 2nd one without having to give it a class or id name by using the :nth-of-type like this. If I wanted the fourth one, I’d use a 4 instead of a 2.
+
+Pseudo-classes allow you to change the appearance of elements when a user is interacting with them. For example if I want the a links in my nav to have a different background color or text color when the user hovers over them I can use :hover after the selector and give it the declarations I want to happen when the user hovers.
+
+There are other pseudo classes like :active, :focus and :visited. See w3schools at https://www.w3schools.com/css/css_pseudo_classes.asp for more examples.

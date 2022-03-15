@@ -1,0 +1,73 @@
+TEXT 1 (https://www.bauer-power.net/2018/01/top-5-computer-security-threats.html):
+    With increasing cyber community and vast system users’ computer security threats have increased significantly. In this article, we can discuss some computer security threats of recent times.
+
+    In recent times computer security of users has been at stake due to increased cyber and malware attacks. Computer users are prone to these threats as attacks have increased multifold in recent times. These computer security threats come in various forms and malicious content like malware, viruses, spyware, adware, Botnet, ransomware, and others. Let’s discuss top 5 computer security threats of recent times.
+
+    Virus: A Virus can replicate itself and infect a system without the knowledge or permission of the user. This small piece of software can spread when it is transmitted by a user via the Internet or over a network. It can also infect system removable media or external devices such as CDs or USB drives. These viruses can delete your important data, reformat the system hard disk, cause system crash or other losses. Even these viruses take up system memory and may cause erratic behavior on your system. These virus threats can be prevented significantly using anti-virus programs.
+
+    Ransomware: Ransomware is a malware which attacks user’s system and gets installed on it without user’s consent. It executes a malicious Crypto virology attacks to affect user’s computer adversely. Advanced Ransomware encrypts the victim’s files and other data making them inaccessible to the user and demands a ransom payment to decrypt it. It can also encrypt the system’s Master File Table or the entire hard disk. Ransomware is a form of denial-of-access attack where it prevents users from using their own system. These attacks are generally carried out using Trojan.
+
+    Phishing: In Phishing attacks, a phony web page is created and produced by the user that looks similar to a legitimate web page. This phony web page remains on a server of the attacker thus the attacker keeps full control of the page. Using these phony web pages’ users are tricked by attackers as users think they are on the legitimate page or trusted website. These phony web pages are created to steal user’s information like their names, passwords, credit & debit card details, and other sensitive information. Phishing attacks are generally carried out by email or instant messaging where compromised links are shared with the users.
+
+    Spyware: Spyware is a small piece of software program that is secretly installed on a system without the user’s consent. Spyware programs are used to keep a tab on user’s activities. These programs can collect a lot of sensitive and personal information of user like credit & debit card details, financial transactions, website visited, usernames & passwords etc. These programs can redirect web browsers to malicious websites or can install other malware easily.  Spyware can affect system speed and performance negatively.
+
+    Botnet:  A Botnet is also known as “Zombie Army” is a collection of software robots (or bots) that run automated tasks over the Internet. The term “Botnet” is commonly used to refer to a distributed network or compromised system (called “Zombie computer”) This “Zombie Army” run programs such as Trojan horses, worms or backdoors. Recent Botnet versions can automatically scan its environment and propagate themselves using various vulnerabilities on the system. They are used to launch Distributed Denial-of-Service (DDoS) attacks against various websites.
+
+    Above mentioned computer security threats can affect computers significantly. These threats can cause data loss or can block user access to their own system. Apart from these threats, there are many other threats as well like Worm, Trojan Horse, Keystroke logging, Adware, Spoofing, Pharming and lot others that can make your system crawl or sometimes halt the operations on it.
+
+    By Sarah Connor
+
+TEXT 2 (https://technofaq.org/posts/2018/07/how-the-advancement-in-technology-has-impacted-the-cybersecurity-industry/):
+    There are new headlines every week detailing cyber attacks and security breaches. Millions of consumers and thousands of organizations around the world are affected by cybercrime. Online consumers increasingly experience personal data being exposed in a security hack commonly these days. In most cases, a simple patch could’ve prevented the security breach.
+
+    On the other hand, the cybersecurity industry is growing at an approximate rate of 11 percent annually. According to a recent report, the global cybersecurity expenditure is expected to cross $ 1 trillion between the years 2017 and 2021. But with the continual security breaches, is the cybersecurity industry really protecting its customers?
+
+    Statistics indicate that it may not be offering adequate protection from cyber crimes as there was a 21 percent increase in businesses falling prey to cyber attacks in the United States alone.
+
+    The main reason behind an increase in these attacks is the increase in smart gadget and mobile use within organizations. This blurs the network perimeters leading to more points of susceptibility. Effectively, attackers get access to more points of attack.
+
+    Networks have slowly evolved from wired to wireless in the last few decades. Many cybersecurity methods from the past cannot withstand the sophisticated technology onslaught from the cyber criminals of today. While some new age firewalls and anti-virus solutions are useful, they remain preventive measures.
+
+    Furthermore, many businesses have based their cybersecurity on the Kill Chain model. This model emphasizes mainly on intrusion and malware. However, it does not have the ability to detect threats that reach past the perimeter firewall.
+
+    Businesses today are extremely digitalized, and the detection of anomalies and defending an undefined perimeter is beyond the scope of available technologies.
+
+    The most crucial element in cyber defense is the capability to identify a threat in every area of a blurry, wireless network. However, it does not end there. The cybersecurity industry must turn its focus to software that is detection-based and incorporates Machine Learning (ML) and Artificial Intelligence (AI) systems. Cybersecurity measures must not only be able to identify the threat but also address it rapidly.
+
+    ML and AI usage is critical if the response time is to be improved. Every second is important when there is an active cyber breach. Studies indicate that the detection of cyber attacks promptly can limit their impact on businesses by up to 70 percent.
+
+    In a recent example on how important response time is during a cyber attack, Oracle responded to a cyber breach as rapidly as humanly possible. However, the cyber attacker still managed to take off with Cryptocurrency worth $226,000. All this occurred in the minimal time it took to detect the threat and create a patch to deal with it.
+
+    The cybersecurity industry must keep up with the demands for stronger solutions by placing a greater focus on the detection of threats in real-time and making the response time shorter. The $75 billion cybersecurity will be able to offer better value to its customers by limiting the impact of attackers through quicker detection and rapid recovery solutions.
+
+    By Sunit Nandi
+
+TEXT 3 ():
+    From LookingGlass Cyber Solutions, transforming the art of threat intelligence.
+    19 December 2016. Posted with their gracious permission.
+
+    Now that APT reports have been exposed, the “thrill” of discovering and calling out suspected nation state actors engaged in clandestine cyber activity has become almost routine. Excitement over what was once considered a difficult thing to do (detecting “advanced” cyber adversaries) is now expected. And therein lies the problem. The rush to attribute and increase marketing visibility in the wake of such incidents has taken the place of adding value through the exchange of actionable information.
+
+    As a result, the cybersecurity community appears to be at an almost breakneck speed in producing APT reports. Certainly, the research that is offered to the public under the auspices of information sharing provides some proficient technical analysis and indicators of compromise that can help organizations detect if similar activity is occurring against their networks. But what is the real benefit of revealing to the world what is known? Does it capitalize on the business marketplace?
+
+    One security vendor intimated that there appears to be a direct correlation in the decline of suspected nation state hacking and private company earnings. This was perceived to be the case when a particular company’s decline in stock performance occurred at the same time a certain nation state was hacking less frequently. Then three months later, the same company noted a spike in stock value when another nation state’s alleged hacking efforts surfaced and became prominent in the news. While based on very limited evidence, the bottom line message appears to be clear: many of these reports seem to serve as more of a marketing resource – if not more – than information sharing.
+
+    According to a security researcher, one of the driving factors behind the growth in reporting is the inherent marketing value (they provide sound bites and quotes for computer security-related, cable, and even network news, particularly when they name “who” was behind such activities), which translates to sales. (“Do APT reports hurt more than they help?“)
+
+    Cybercrime
+
+    The more we focus on such nation state activities, the more we’ll see vendor reports pointing attribution in a particular government’s direction. However, there is evidence that the volume of such reports being produced by so many vendors is saturating the marketplace, and may not be achieving the intended purpose. The same researcher concludes that with several vendors competing to release intelligence reports exposing suspected APT actors at work, the marketing value has dropped significantly while the self-inflicted harm has only increased.
+
+    To be fair, the media shares some responsibility in all of this, as it sensationalizes alleged nation state hack often times without validating the information. Recent media activity around Russia’s suspected involvement in hacking the U.S. election illustrates this point. While one intelligence agency seems convinced of Russian culpability to influence election results, several others including the Office of the Director of National Intelligence have differing opinions as to the intent of such activity. (“Why Are the Media Taking the CIA’s Hacking Claims at Face Value?“)  Most major news headlines promote the former’s conclusion, not the latter’s.
+
+    The October 2016 distributed denial-of-service (DDoS) attack against Dyn, a cloud-based Internet performance management company, is further indicative of the media breaking stories without substantiating information. Initially, many news outlets incorrectly reported who was responsible, while most of the security community did not share that view. Ultimately, the security community was correct. Such claims are not reserved just for stories about hacking. President Obama made such intimations toward the press at a journalism award dinner in 2016, admonishing the press for “irresponsible election coverage.” (“Obama rails against vulgar politics in speech at Syracuse University event.”)
+
+    Furthermore, there is some question as to the benefit of publishing such APT reports in the first place. In early 2016 at a prominent cyber threat intelligence conference, the question about whether or not publishing APT reports for wide public consumption (rather than just within an info-sharing community of professionals) was the right course of action. One presenter at the conference provided several compelling cases of APT actors shifting their TTPs shortly after the release of reports detailing their operations, thereby reducing their usability for network defenders. (“Do APT reports hurt more than they help?“)
+
+    Another salient point raised was the fact that often these vendor APT reports lacked enough substance to be effective for the public writ large at all. In the haste of trying to “break the story,” these reports sacrificed utility for instant notoriety, again calling into question the real intention of such reporting. A 2015 presentation by two security researchers found that with the advancement of defensive security and the constant release of research papers into their toolsets, advanced threat actors have had to adapt with new operational security practices, as well as with new technology. (“APT Reports and OPSEC Evolution.“) In effect, by publicizing what is known about their activities, these actors can change up how they do things, either a little, perhaps to suggest a “false flag” operation, or a lot.  Either way, the same result is clear: we are helping the bad guys.
+
+    As we start a new year, there needs to be a concerted effort to get back on track to work collaboratively to perform better information sharing in order to enable better decision making, or else we risk ending 2017 in the same position we are now.
+
+    By Emilio Iasiello
+
+TEXT 4?
