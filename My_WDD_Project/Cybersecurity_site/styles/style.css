@@ -1,6 +1,8 @@
 @import url('https://www.cssfontstack.com/Rockwell');
 
 main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color: #caf0f8;
     margin: 25px;
     padding: 15px;
@@ -9,6 +11,13 @@ main {
 body { 
 	font-family: 'Rockwell',Courier Bold,Courier,Georgia,Times,'Times New Roman',serif; 
     background-color: navy;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.logo {
+    max-width: 5em;
 }
 
 /**/
@@ -60,4 +69,19 @@ body {
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
+}
+
+
+
+.basic_home {
+    grid-column: 1/4;
+}
+.prem_home {
+    grid-column: 4/7;
+}
+.basic_corp {
+    grid-column: 1/4;
+}
+.prem_corp {
+    grid-column: 4/7;
 }
