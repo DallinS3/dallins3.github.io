@@ -2,7 +2,7 @@
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color: #caf0f8;
     margin: 25px;
     padding: 15px;
@@ -15,9 +15,128 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: lightcyan;
 }
 .logo {
-    max-width: 5em;
+    max-width: 7em;
+    margin-left: 5px;
+    padding-bottom: 15px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 4px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 5px;
+    margin: 5px;
+    max-height: 10em;
+}
+.icon {
+    width: 50px;
+    padding: 5px;
+    grid-row: 1/3;
+    grid-column: 1/2;
+    justify-self: center;
+    align-self:center;
+}
+.company {
+    background-color: darkblue;
+    color:whitesmoke;
+    font-size: 200%;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+}
+.home {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    background-color: skyblue;
+    max-height: 3em;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: bottom;
+    color: darkblue;
+}
+.facts_faqs {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-color: skyblue;
+    max-height: 3em;
+    text-decoration: none;
+    text-align: center;
+    color: darkblue;
+}
+.plans_price {
+    grid-area: 1 / 4 / 2 / 5;
+    background-color: skyblue;
+    max-height: 3em;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: bottom;
+    color: darkblue;
+}
+.meet_team {
+    grid-area: 2 / 4 / 3 / 5;
+    background-color: skyblue;
+    max-height: 3em;
+    text-decoration: none;
+    text-align: center;
+    color: darkblue;
+}
+.search {
+    grid-area: 2 / 1 / 3 / 3;
+    background-color: skyblue;
+    max-height: 3em;
+    margin-right: 100px;
+}
+#search {
+    grid-area: 2 / 2 / 3 / 3;
+    max-height: 3em;
+    width: fit-content;
+    padding: 0px 5px;
+    justify-self: center;
+    cursor: pointer;
+}
+.log_in {
+    grid-area: 1 / 7 / 2 / 8;
+    max-height: 3em;
+    font-size: 50%;
+    text-align: end;
+    color: black;
+}
+.create_account {
+    grid-area: 2 / 7 / 3 / 8;
+    max-height: 3em;
+    font-size: 50%;
+    text-align: end;
+    color: black;
+}
+#profile_img {
+    grid-column: 8/9;
+    grid-row: 1/3;
+    max-height: 3em;
+    justify-self: center; /* put img in the middle of columns */
+    align-self: center; /* put img in middle of rows */
+    color: blue;
+}
+
+
+#home_text {
+    grid-column: auto;
+    z-index: 1;
+}
+#home_icon {
+    grid-row: 2/3;
+    z-index: 0;
 }
 
 /**/
@@ -27,10 +146,11 @@ header {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
-    padding: 25px;
+    max-width: 1/-1;
+    height: 350px;
+    border: 5px solid #0a0a0a;
+    padding: 25px 33px 50px 33px;
+    margin: 25px 25px 50px 25px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
     
@@ -60,13 +180,13 @@ header {
     
     /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-    background-color: #bbb;
+    background-color: indigo;
     color: black;
 }
     
     /* Style the back side */
 .flip-card-back {
-    background-color: dodgerblue;
+    background-color: darkblue;
     color: white;
     transform: rotateY(180deg);
 }
@@ -74,14 +194,50 @@ header {
 
 
 .basic_home {
-    grid-column: 1/4;
+    grid-column: 2/5;
 }
 .prem_home {
-    grid-column: 4/7;
+    grid-column: 5/8;
 }
 .basic_corp {
-    grid-column: 1/4;
+    grid-column: 2/5;
 }
 .prem_corp {
-    grid-column: 4/7;
+    grid-column: 5/8;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: inherit;
+}
+.foot {
+    grid-template-columns: inherit;
+}
+.contact {
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+.ppwire {
+    grid-column: 3/4;
+    grid-row: 2;
+    max-height: 100px;
+    cursor: pointer;
+}
+footer h3 {
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
+footer h4 {
+    grid-column: 4 / 5;
+    grid-row: 1;
+}
+.copyright {
+    grid-column: 5 / 6;
+    grid-row: 1;
+}
+.social {
+    grid-column: 7 / 9;
+    padding: 50px;
+    margin: 50px;
 }
