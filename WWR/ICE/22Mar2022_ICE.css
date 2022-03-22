@@ -1,0 +1,65 @@
+body {
+    background-color: #efefef;
+    font-family: 'Roboto', sans-serif;
+}
+
+.photo_card {
+    max-width: 500px;
+    color: #64656f;
+    margin: 0 auto;
+    background-color: white;
+}
+.photo_card header {
+    display: grid;
+    padding: 15px;
+    gap: 10px;
+    grid-template-columns: 1fr 8fr 2fr 1fr;
+    align-items: center;
+}
+.photo_card header img {
+    width: 35px;
+    border-radius: 100%;
+    padding: 10px 0;
+}
+.photo_card .user {
+    font-weight: bold;
+}
+.photo_card .time_stamp {
+    color: #e4e3e7;
+    text-align: right;
+    font-size: 0.75em;
+}
+#post_menu {
+    text-align: right;
+}
+.photo_card a:link, .photo_card a:visited, .photo_card a:hover, .photo_card a:active {
+    color:#bfbfbf;
+    text-decoration: none;
+}
+.photo_card a:hover {
+    color: #64656f;
+}
+.photo_card img {
+    width: 100%;
+}
+
+.photo_card .post_pic {
+    max-width: 500px;
+}
+
+.photo_card footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr 5fr;
+    grid-template-rows: 40px;
+    justify-items: left;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+}
+.photo_card footer .likes {
+    justify-self: end;
+    font-weight: bold;
+}
+.photo_card footer i {
+    font-size: 0.75em;
+}
