@@ -244,8 +244,14 @@ footer {
     display: grid;
     grid-template-columns: inherit;
 }
-.foot {
+.foot1 .foot2 {
     grid-template-columns: inherit;
+}
+.social {
+    grid-template-columns: inherit;
+    grid-column: 7 / 9;
+    padding: 50px;
+    margin: 50px;
 }
 .contact {
     grid-column: 2 / 3;
@@ -268,9 +274,4 @@ footer h4 {
 .copyright {
     grid-column: 5 / 6;
     grid-row: 1;
-}
-.social {
-    grid-column: 7 / 9;
-    padding: 50px;
-    margin: 50px;
 }
