@@ -113,7 +113,7 @@ header h1 {
     font-size: x-large;
     justify-self: center;
     align-self: center;
-    padding: 5px 15px 10px 15px;
+    padding: 5px 47px 10px 47px;
 }
 .search {
     grid-area: 2 / 1 / 3 / 3;
@@ -162,6 +162,7 @@ header h1 {
     color: darkblue;
 }
 
+    /*  ||| HOME PAGE BODY |||  */
 
 #home_text {
     grid-column: auto;
@@ -180,8 +181,8 @@ header h1 {
 
 /* Slideshow container */
 .scroll {
-    /*  grid-column: 1 / -1;  */
-    max-width: 1000px;
+    grid-column: 1 / -1;
+    /* max-width: 3000px; */
     position: relative;
     margin: auto;
 }
@@ -299,6 +300,7 @@ header h1 {
     /* Position the front and back side */
 .flip-card-front, .flip-card-back {
     position: absolute;
+    display: grid;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
@@ -307,30 +309,97 @@ header h1 {
     
     /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-    background-color: indigo;
-    color: black;
+    background-color: white;
+    color: #00B7FF;
 }
     
     /* Style the back side */
 .flip-card-back {
-    background-color: darkblue;
+    background-color: indigo;
     color: white;
     transform: rotateY(180deg);
 }
 
 
+    /*  ||| FACTS_FAQS PAGE BODY |||  */
 
+.beginning {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+.facts_faqs {
+    display: grid;
+}
+.facts_faqs h2 {
+    font-size: x-large;
+    grid-template-columns: inherit;
+}
+
+.ff_back1{
+    grid-column: 1 / 5;
+    grid-row: 2;
+    background-color: lightblue;
+}
+.ff_back2 {
+    grid-column: 5 / 9;
+}
+
+
+    /*  ||| PLANS_PRICE PAGE BODY |||  */
+
+.plan_intro {
+    grid-column: 1 / -1;
+}
+.plan_intro h2 {
+    margin: 3em 3em 0em;
+}
+.plan_intro p {
+    margin:1em 3em 3em;
+    padding: 0em 5em;
+}
 .basic_home {
-    grid-column: 2/5;
+    grid-column: 1/5;
+    margin-left: 20%;
+}
+.basic_home h2 {
+    font-size: larger;
+    color: #00B7FF;
+    text-decoration: none;
 }
 .prem_home {
-    grid-column: 5/8;
+    grid-column: 5/9;
+    margin-right: 20%;
+}
+.prem_home h2 {
+    font-size: larger;
+    color: #00B7FF;
+    text-decoration: none;
 }
 .basic_corp {
-    grid-column: 2/5;
+    grid-column: 1/5;
+    margin-left: 20%;
+}
+.basic_corp h2 {
+    font-size: larger;
+    color: #00B7FF;
 }
 .prem_corp {
-    grid-column: 5/8;
+    grid-column: 5/9;
+    margin-right: 20%;
+}
+.prem_corp h2 {
+    font-size: larger;
+    color: #00B7FF;
+}
+#home_icon, #business_icon {
+    justify-self: center;
+    align-self: center;
+    font-size: 200px;
+    color: #0000bf;
+}
+.premium_cp, .basic_cp, .premium_hp, .basic_hp {
+    margin: 5px;
+    padding: 10px;
 }
 
 
@@ -340,7 +409,7 @@ footer {
 }
 .foot1 .foot2 {
     display: grid;
-    grid-template-columns: inherit;
+    /*  grid-template-columns: inherit; */
 }
 .social {
     display: grid;
@@ -358,7 +427,7 @@ footer {
 .twitter {
     grid-column: 8 / 9;
 }
-.contact {
+.contact_us {
     grid-column: 3 / 4;
     grid-row: 1;
 }
