@@ -75,7 +75,7 @@ header h1 {
     font-size: x-large;
     justify-self: center;
     align-self: center;
-    padding: 5px 15px 10px 15px;
+    padding: 5px 37.5px 10px 37.5px;
 }
 .facts_faqs {
     grid-row: 2/3;
@@ -88,7 +88,7 @@ header h1 {
     font-size: x-large;
     justify-self: center;
     align-self: center;
-    padding: 5px 15px 10px 15px;
+    padding: 5px 37.5px 10px 37.5px;
 }
 .plans_price {
     grid-area: 1 / 5 / 2 / 7;
