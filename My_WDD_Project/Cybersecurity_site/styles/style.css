@@ -273,8 +273,22 @@ div.mySlides:nth-of-type(1){
   to {opacity: 1}
 }
 
+/*
 .main {
-
+    display: grid;
+    grid-template-columns: inherit;
+}
+*/
+.foreground {
+    grid-template-columns: inherit;
+}
+.background {
+    grid-column: 1 / 6;
+    z-index: 1;
+}
+.body_one {
+    grid-column: 1 / 6;
+    z-index: 0;
 }
 
 
@@ -475,6 +489,7 @@ footer h3 {
 footer h4 {
     grid-column: 4 / 5;
     grid-row: 1;
+    color: beige;
 }
 .copyright {
     display: grid;
