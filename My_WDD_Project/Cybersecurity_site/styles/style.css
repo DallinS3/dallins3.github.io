@@ -369,6 +369,9 @@ div.mySlides:nth-of-type(1){
     grid-template-columns: inherit;
     margin:15px;
 }
+.ff_back1 h5, .ff_back2 h5 {
+    margin: 15px;
+}
 
 .ff_back1{
     grid-column: 1 / 5;
@@ -379,6 +382,7 @@ div.mySlides:nth-of-type(1){
 }
 .ff_back1 .bulleted, .ff_back2 .bulleted {
     text-indent: 32px;
+    list-style: none;
 }
 .ff_back1 h2, .ff_back2 h2 {
     margin: 16px;
@@ -476,6 +480,9 @@ div.mySlides:nth-of-type(1){
     color: #00B7FF;
     text-decoration: none;
 }
+.basic_home a {
+    text-decoration: none;
+}
 .prem_home {
     grid-column: 5/9;
     margin-right: 20%;
@@ -483,6 +490,9 @@ div.mySlides:nth-of-type(1){
 .prem_home h2 {
     font-size: larger;
     color: #00B7FF;
+    text-decoration: none;
+}
+.prem_home a {
     text-decoration: none;
 }
 .basic_corp {
@@ -493,6 +503,9 @@ div.mySlides:nth-of-type(1){
     font-size: larger;
     color: #00B7FF;
 }
+.basic_corp a {
+    text-decoration: none;
+}
 .prem_corp {
     grid-column: 5/9;
     margin-right: 20%;
@@ -501,7 +514,16 @@ div.mySlides:nth-of-type(1){
     font-size: larger;
     color: #00B7FF;
 }
+.prem_corp a {
+    text-decoration: none;
+}
 #home_icon, #business_icon {
+    justify-self: center;
+    align-self: center;
+    font-size: 200px;
+    color: #0000bf;
+}
+#home_icon_img, #business_icon_img {
     justify-self: center;
     align-self: center;
     font-size: 200px;
