@@ -200,7 +200,57 @@
             <section class = 'right_side'>
                 <img class = 'right_img' src = '../images/fingerprint2.png' alt = "Fingerprint2 PNG">
                 <p class = 'body_four'>If you have any questions, comments, or concerns, please feel free to contact us!</p>
-                <p>(This is where "Contact Us" box will go ~ at a future date)</p>
+                <div id="feedback"></div>
+                    <div>
+                        <!--    THIS IS WHERE I WILL BE PRACTICING USING THE <form> ELEMENT     -->
+                            <!--    <<action>> (defines the location (URL) where the form's collected data should be sent when it is submitted.) AND <<method>> (defines which HTTP method to send the data with (usually get or post).) attributes are optional in the <form> element, but standard practice    -->
+                        <form action="/my_handling_form_page" method="post">
+                            <ul>
+                                <li>
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="user_name">
+                                </li>
+                                <li>
+                                    <label for="password">Password:</label>
+                                    <input type="password" id="password" name="user_password">
+                                </li>
+                                <li>
+                                    <label for="email">E-mail:</label>
+                                    <input type="email" id="email" name="user_email">
+                                </li>
+                                <li>
+                                    <label for="address">Mailing / Shipping & Billing Address:</label>
+                                    <input type="text" id="mail" name="user_mailing">
+                                </li>
+                                <li>
+                                    <label for="msg">Message:</label>
+                                    <textarea id="msg" name="user_message"></textarea>
+                                </li>
+                                <li class="button">
+                                    <button type="submit">Send</button>
+                                    <button type="reset">Cancel</button>
+                                </li>
+                            </ul>
+                        </form>
+                        <script>
+                            const feedbackElement = document.getElementById('feedback');
+                            const formElement = document.forms[0];
+                            formElement.addEventListener('submit', function(e) {
+                                e.preventDefault();
+                                feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!'
+                                feedbackElement.style.display = 'block';
+                                // document.body.classList.toggle('moveDown');
+                            });
+                        //  IN ORDER FROM FIRST STEP TO LAST (as written above):
+                        // get the feedback div element so we can do something with it.
+                        // get the form so we can read what was entered in it.
+                        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+                        // stop the form from doing the default action.
+                        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                        // make the feedback element visible.
+                        // add a class to move everything down so our message doesn't cover it.
+                        </script>
+                    </div>
             </section>
         </main>
         
