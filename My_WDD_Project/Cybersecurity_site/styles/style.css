@@ -278,52 +278,75 @@ div.mySlides:nth-of-type(1){
 .body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-column: 1 / 6;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column: 1 / 7;
     text-indent: 28px;
     line-height: 1.75em;
 }
 .body p {
     line-height: 1.5em;
 }
-/*
-.foreground {
-}
-*/
 .background {
     display: grid;
     grid-column: 1 / -1;
-    z-index: 1;
-    max-width: 100%;
-    opacity: 0.5;
+    grid-row: 1 / -1;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
 }
 .foreground {
     display: grid;
-    grid-column: inherit;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-column: 1/7;
+    grid-row: 1/5;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    z-index: 1;
+}
+.foreground p {
+    padding: 0px 15px;
 }
 .body_one {
-    grid-column: 1 / 6;
+    grid-column: 2;
     grid-row: 1;
     z-index: 0;
     line-height: 1.75em;
 }
 .img_one {
-    max-width: 80%;
-    grid-column: 1 / 3;
+    width: 100%;
+    grid-column: 1;
     z-index: 0;
     grid-row: 1;
+    height: 100%;
+    object-fit: cover;
 }
 .body_two {
-    grid-column: 1 / 6;
+    grid-column: 1;
+    grid-row: 2;
     z-index: 0;
     line-height: 1.75em;
 }
+.img_two {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img_three {
+    width: 50%;
+    justify-self: center;
+}
 .body_three {
-    grid-column: 1 / 6;
+    grid-column: 2;
+    grid-row: 3;
     z-index: 0;
     line-height: 1.75em;
 }
 .right_side {
     grid-column: 7 / 9;
+    padding: 15px;
 }
 .right_img {
     grid-column: 7 / 9;
@@ -528,7 +551,7 @@ footer {
     grid-column: 3 / 4;
     grid-row: 1;
     text-decoration: none;
-    color: skyblue;
+    color: #caf0f8;
 }
 .ppwire {
     grid-column: 3/4;
@@ -536,14 +559,12 @@ footer {
     max-height: 100px;
     cursor: pointer;
     padding-top: 70px;
-    color: skyblue;
+    color: #caf0f8;
+    z-index: 2;
 }
-/*
-footer h3 {
-    grid-column: 4 / 5;
-    grid-row: 1;
+footer h3 a {
+    color: #caf0f8;
 }
-*/
 footer h4 {
     grid-column: 4 / 5;
     grid-row: 1;
