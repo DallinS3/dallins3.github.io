@@ -176,7 +176,7 @@ header h1 {
     background-color: navy;
     /* position: absolute;  */
     color: white;
-    top: 1;
+    top: 10px;
     left: 0;
     right: 0;
     padding: .5em;
