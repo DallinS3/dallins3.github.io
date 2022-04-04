@@ -25,7 +25,7 @@ header {
     align-self: center;
     border-radius: 4px;
 }
-#logo_link {
+#logo_link, #logo_link_foot {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
@@ -124,7 +124,7 @@ header h1 {
     font-size: large;
     align-self: flex-end;
 }
-#search {
+#search, #search_icon {
     grid-area: 2 / 2 / 3 / 3;
     max-height: 3em;
     width: fit-content;
@@ -288,6 +288,7 @@ div.mySlides:nth-of-type(1){
     display: grid;
     grid-column: 1 / 6;
     z-index: 1;
+    max-width: 100%;
 }
 .body_one {
     grid-column: 1 / 6;
@@ -315,12 +316,20 @@ div.mySlides:nth-of-type(1){
     grid-row: 1;
     background-color: lightblue;
     line-height: 1.5em;
+    /*  border-right: black;  */
 }
-.ff_back1 .bulleted {
-    text-indent: 28px;
+.ff_back1 .bulleted, .ff_back2 .bulleted {
+    text-indent: 32px;
+}
+.ff_back1 h2, .ff_back2 h2 {
+    margin: 16px;
+    font-size: xx-large;
+    
 }
 .ff_back2 {
     grid-column: 5 / 9;
+    background-color: lightblue;
+    line-height: 1.5em;
 }
 
 
